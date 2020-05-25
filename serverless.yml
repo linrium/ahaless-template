@@ -36,7 +36,7 @@ functions: ${file(./.ahaless/functions.sls.json)}
 
 # Add the serverless-webpack plugin
 plugins:
-  - /Users/user/Projects/serverless-gen-functions
+  - @ahamove/serverless-generate-functions
   - serverless-dotenv-plugin
   - serverless-webpack
   - serverless-domain-manager
